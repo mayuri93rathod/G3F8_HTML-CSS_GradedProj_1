@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    margin: auto;
+    background-color: gray;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    margin: auto;
+}
+
+nav {
+    position: fixed;
+    background-color: gainsboro;
+    width: 100%;
+    margin-top: 6%;
+    padding: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 2% 1%;
+    color: black;
+    font-weight: bold;
+    margin: 1px 1px;
+}
+
+nav a:hover{
+    background-color: rgb(59, 58, 58);
+    color: white;
+}
+
+nav a select {
+    background-color: gainsboro;
+    border-style: none;
+}
+
+.add img {
+    border: 2px solid blue;
+    width: 100%;
+    height: 500px;
+    margin-top: 10%;
+}
+
+.products div {
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(248, 242, 242);
+    box-shadow: azure;
+    display: inline-block;
+    padding: 1%;
+    margin: 3%;
+}
+
+.products div img {
+    width: 180px;
+    height: 180px;
+    padding: 1%;
+}
+
+.products div img:hover{
+    width:200px;
+    height: 200px;
+}
+
+.products div h4 {
+    text-align: center;
+}
+
+.products div button {
+    width: 100%;
+    border-radius: 7px;
+    border-color: blue;
+    font-weight: bold;
+    color: orangered;
+    padding: 2%;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1%;
+}

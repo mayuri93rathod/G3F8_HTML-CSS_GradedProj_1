@@ -1,0 +1,31 @@
+section{
+    display: inline-block;
+}
+
+.labtest{
+    float: right;
+}
+
+.labtest img{
+    height: 700px;
+    width: fit-content;
+}
+
+.form{
+    margin-left: 14%;
+    padding: 2%;
+}
+.form input{
+    padding: 1%;
+    text-decoration: none;
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+
+button{
+    background-attachment: fixed;
+    background-color: rgb(129, 95, 161);
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
